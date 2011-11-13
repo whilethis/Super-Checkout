@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Super CheckoutTests' target in the 'Super CheckoutTests' project
+//
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+#endif

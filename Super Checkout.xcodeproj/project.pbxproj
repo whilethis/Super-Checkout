@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA000D8912EB8A3B00185A34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA000D8812EB8A3B00185A34 /* UIKit.framework */; };
+		CA000D8B12EB8A3B00185A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA000D8A12EB8A3B00185A34 /* Foundation.framework */; };
+		CA000D8D12EB8A3B00185A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA000D8C12EB8A3B00185A34 /* CoreGraphics.framework */; };
+		CA000D9312EB8A3B00185A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA000D9112EB8A3B00185A34 /* InfoPlist.strings */; };
+		CA000D9612EB8A3B00185A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA000D9512EB8A3B00185A34 /* main.m */; };
+		CA000D9912EB8A3B00185A34 /* Super_CheckoutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA000D9812EB8A3B00185A34 /* Super_CheckoutAppDelegate.m */; };
+		CA000D9C12EB8A3B00185A34 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA000D9A12EB8A3B00185A34 /* MainWindow.xib */; };
+		CA000D9F12EB8A3B00185A34 /* Super_CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA000D9E12EB8A3B00185A34 /* Super_CheckoutViewController.m */; };
+		CA000DA212EB8A3B00185A34 /* Super_CheckoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA000DA012EB8A3B00185A34 /* Super_CheckoutViewController.xib */; };
+		CA000DA912EB8A3B00185A34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA000D8812EB8A3B00185A34 /* UIKit.framework */; };
+		CA000DAA12EB8A3B00185A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA000D8A12EB8A3B00185A34 /* Foundation.framework */; };
+		CA000DAB12EB8A3B00185A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA000D8C12EB8A3B00185A34 /* CoreGraphics.framework */; };
+		CA000DB112EB8A3B00185A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA000DAF12EB8A3B00185A34 /* InfoPlist.strings */; };
+		CA000DB412EB8A3B00185A34 /* Super_CheckoutTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CA000DB312EB8A3B00185A34 /* Super_CheckoutTests.h */; };
+		CA000DB612EB8A3B00185A34 /* Super_CheckoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA000DB512EB8A3B00185A34 /* Super_CheckoutTests.m */; };
+		CA000DC412EBB91700185A34 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA000DC312EBB91700185A34 /* MainNavigationController.m */; };
+		CA000DC912EBC4E000185A34 /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA000DC712EBC4E000185A34 /* ShoppingCartViewController.m */; };
+		CA000DCA12EBC4E000185A34 /* ShoppingCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA000DC812EBC4E000185A34 /* ShoppingCartViewController.xib */; };
+		CAD7058B13243F9900BA0F59 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7058A13243F9900BA0F59 /* NSString+UUID.m */; };
+		CAD705961325B8BC00BA0F59 /* SCJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD705951325B8BA00BA0F59 /* SCJSONParser.m */; };
+		CAD705A41325C02500BA0F59 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7059F1325C02500BA0F59 /* NSObject+SBJSON.m */; };
+		CAD705A51325C02500BA0F59 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD705A01325C02500BA0F59 /* NSString+SBJSON.m */; };
+		CAD705A61325C02500BA0F59 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD705A11325C02500BA0F59 /* SBJsonBase.m */; };
+		CAD705A71325C02500BA0F59 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD705A21325C02500BA0F59 /* SBJsonParser.m */; };
+		CAD705A81325C02500BA0F59 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD705A31325C02500BA0F59 /* SBJsonWriter.m */; };
+		CAD705AD1325FCEA00BA0F59 /* ProductListCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD705AC1325FCEA00BA0F59 /* ProductListCells.xib */; };
+		CAD705B01325FDB500BA0F59 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD705AF1325FDB500BA0F59 /* ProductCell.m */; };
+		CAD705B413270EBB00BA0F59 /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD705B213270EB700BA0F59 /* ProductDetailsViewController.m */; };
+		CAD705B513270EBB00BA0F59 /* ProductDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD705B313270EB900BA0F59 /* ProductDetailsViewController.xib */; };
+		CADC061D12F1059300B46CBC /* SuperCheckoutAPIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CADC061C12F1059300B46CBC /* SuperCheckoutAPIEngine.m */; };
+		CADC062212F123FC00B46CBC /* SuperCheckoutHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CADC062112F123FC00B46CBC /* SuperCheckoutHTTPURLConnection.m */; };
+		CAE1900D13273083008ACCCD /* quantity_decrement.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE1900913273083008ACCCD /* quantity_decrement.png */; };
+		CAE1900E13273083008ACCCD /* quantity_decrement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE1900A13273083008ACCCD /* quantity_decrement@2x.png */; };
+		CAE1900F13273083008ACCCD /* quantity_increment.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE1900B13273083008ACCCD /* quantity_increment.png */; };
+		CAE1901013273083008ACCCD /* quantity_increment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE1900C13273083008ACCCD /* quantity_increment@2x.png */; };
+		CAE1901313273430008ACCCD /* QuantityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE1901213273430008ACCCD /* QuantityCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA000D8412EB8A3B00185A34 /* Super Checkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Checkout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA000D8812EB8A3B00185A34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA000D8A12EB8A3B00185A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA000D8C12EB8A3B00185A34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA000D9012EB8A3B00185A34 /* Super_Checkout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Super_Checkout-Info.plist"; sourceTree = "<group>"; };
+		CA000D9212EB8A3B00185A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA000D9412EB8A3B00185A34 /* Super_Checkout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Super_Checkout-Prefix.pch"; sourceTree = "<group>"; };
+		CA000D9512EB8A3B00185A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA000D9712EB8A3B00185A34 /* Super_CheckoutAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Super_CheckoutAppDelegate.h; sourceTree = "<group>"; };
+		CA000D9812EB8A3B00185A34 /* Super_CheckoutAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Super_CheckoutAppDelegate.m; sourceTree = "<group>"; };
+		CA000D9B12EB8A3B00185A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CA000D9D12EB8A3B00185A34 /* Super_CheckoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Super_CheckoutViewController.h; path = "Super Checkout/Super_CheckoutViewController.h"; sourceTree = "<group>"; };
+		CA000D9E12EB8A3B00185A34 /* Super_CheckoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Super_CheckoutViewController.m; path = "Super Checkout/Super_CheckoutViewController.m"; sourceTree = "<group>"; };
+		CA000DA112EB8A3B00185A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Super_CheckoutViewController.xib; sourceTree = "<group>"; };
+		CA000DA812EB8A3B00185A34 /* Super CheckoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super CheckoutTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA000DAE12EB8A3B00185A34 /* Super_CheckoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Super_CheckoutTests-Info.plist"; sourceTree = "<group>"; };
+		CA000DB012EB8A3B00185A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA000DB212EB8A3B00185A34 /* Super_CheckoutTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Super_CheckoutTests-Prefix.pch"; sourceTree = "<group>"; };
+		CA000DB312EB8A3B00185A34 /* Super_CheckoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Super_CheckoutTests.h; sourceTree = "<group>"; };
+		CA000DB512EB8A3B00185A34 /* Super_CheckoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Super_CheckoutTests.m; sourceTree = "<group>"; };
+		CA000DC212EBB91700185A34 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainNavigationController.h; path = "Super Checkout/MainNavigationController.h"; sourceTree = "<group>"; };
+		CA000DC312EBB91700185A34 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainNavigationController.m; path = "Super Checkout/MainNavigationController.m"; sourceTree = "<group>"; };
+		CA000DC612EBC4E000185A34 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingCartViewController.h; path = "Super Checkout/ShoppingCartViewController.h"; sourceTree = "<group>"; };
+		CA000DC712EBC4E000185A34 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingCartViewController.m; path = "Super Checkout/ShoppingCartViewController.m"; sourceTree = "<group>"; };
+		CA000DC812EBC4E000185A34 /* ShoppingCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShoppingCartViewController.xib; path = "Super Checkout/ShoppingCartViewController.xib"; sourceTree = "<group>"; };
+		CA5EB29B12EBD51F003A3171 /* SCModalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCModalDelegate.h; sourceTree = "<group>"; };
+		CAD7058913243F9900BA0F59 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		CAD7058A13243F9900BA0F59 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		CAD705941325B8BA00BA0F59 /* SCJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCJSONParser.h; sourceTree = "<group>"; };
+		CAD705951325B8BA00BA0F59 /* SCJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCJSONParser.m; sourceTree = "<group>"; };
+		CAD705991325C02500BA0F59 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CAD7059A1325C02500BA0F59 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		CAD7059B1325C02500BA0F59 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		CAD7059C1325C02500BA0F59 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		CAD7059D1325C02500BA0F59 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		CAD7059E1325C02500BA0F59 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CAD7059F1325C02500BA0F59 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		CAD705A01325C02500BA0F59 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		CAD705A11325C02500BA0F59 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		CAD705A21325C02500BA0F59 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		CAD705A31325C02500BA0F59 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		CAD705A91325C03E00BA0F59 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CAD705AC1325FCEA00BA0F59 /* ProductListCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductListCells.xib; sourceTree = "<group>"; };
+		CAD705AE1325FDB500BA0F59 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductCell.h; path = "Super Checkout/ProductCell.h"; sourceTree = "<group>"; };
+		CAD705AF1325FDB500BA0F59 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductCell.m; path = "Super Checkout/ProductCell.m"; sourceTree = "<group>"; };
+		CAD705B113270EB500BA0F59 /* ProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsViewController.h; sourceTree = "<group>"; };
+		CAD705B213270EB700BA0F59 /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
+		CAD705B313270EB900BA0F59 /* ProductDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailsViewController.xib; sourceTree = "<group>"; };
+		CADC061B12F1059300B46CBC /* SuperCheckoutAPIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCheckoutAPIEngine.h; sourceTree = "<group>"; };
+		CADC061C12F1059300B46CBC /* SuperCheckoutAPIEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCheckoutAPIEngine.m; sourceTree = "<group>"; };
+		CADC061E12F11AF100B46CBC /* SuperCheckoutAPIEngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCheckoutAPIEngineDelegate.h; sourceTree = "<group>"; };
+		CADC061F12F1224800B46CBC /* SuperCheckoutRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCheckoutRequestTypes.h; sourceTree = "<group>"; };
+		CADC062012F123FC00B46CBC /* SuperCheckoutHTTPURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCheckoutHTTPURLConnection.h; sourceTree = "<group>"; };
+		CADC062112F123FC00B46CBC /* SuperCheckoutHTTPURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCheckoutHTTPURLConnection.m; sourceTree = "<group>"; };
+		CAE1900913273083008ACCCD /* quantity_decrement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quantity_decrement.png; sourceTree = "<group>"; };
+		CAE1900A13273083008ACCCD /* quantity_decrement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quantity_decrement@2x.png"; sourceTree = "<group>"; };
+		CAE1900B13273083008ACCCD /* quantity_increment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quantity_increment.png; sourceTree = "<group>"; };
+		CAE1900C13273083008ACCCD /* quantity_increment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quantity_increment@2x.png"; sourceTree = "<group>"; };
+		CAE1901113273430008ACCCD /* QuantityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantityCell.h; path = "Super Checkout/QuantityCell.h"; sourceTree = "<group>"; };
+		CAE1901213273430008ACCCD /* QuantityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantityCell.m; path = "Super Checkout/QuantityCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA000D8112EB8A3B00185A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA000D8912EB8A3B00185A34 /* UIKit.framework in Frameworks */,
+				CA000D8B12EB8A3B00185A34 /* Foundation.framework in Frameworks */,
+				CA000D8D12EB8A3B00185A34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA000DA412EB8A3B00185A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA000DA912EB8A3B00185A34 /* UIKit.framework in Frameworks */,
+				CA000DAA12EB8A3B00185A34 /* Foundation.framework in Frameworks */,
+				CA000DAB12EB8A3B00185A34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA000D7912EB8A3B00185A34 = {
+			isa = PBXGroup;
+			children = (
+				CA000D8E12EB8A3B00185A34 /* Super Checkout */,
+				CA000DAC12EB8A3B00185A34 /* Super CheckoutTests */,
+				CA000D8712EB8A3B00185A34 /* Frameworks */,
+				CA000D8512EB8A3B00185A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA000D8512EB8A3B00185A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA000D8412EB8A3B00185A34 /* Super Checkout.app */,
+				CA000DA812EB8A3B00185A34 /* Super CheckoutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA000D8712EB8A3B00185A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA000D8812EB8A3B00185A34 /* UIKit.framework */,
+				CA000D8A12EB8A3B00185A34 /* Foundation.framework */,
+				CA000D8C12EB8A3B00185A34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA000D8E12EB8A3B00185A34 /* Super Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				CAD705971325BFC000BA0F59 /* ExternalLibraries */,
+				CAD7058813243F6F00BA0F59 /* Categories */,
+				CAD705801322EE1000BA0F59 /* Model */,
+				CADC061612F1054100B46CBC /* API */,
+				CA5EB29912EBD4EB003A3171 /* Utilities */,
+				CA000DC512EBC46000185A34 /* ViewControllers */,
+				CA000D9712EB8A3B00185A34 /* Super_CheckoutAppDelegate.h */,
+				CA000D9812EB8A3B00185A34 /* Super_CheckoutAppDelegate.m */,
+				CA000D9A12EB8A3B00185A34 /* MainWindow.xib */,
+				CA000DA012EB8A3B00185A34 /* Super_CheckoutViewController.xib */,
+				CA000D8F12EB8A3B00185A34 /* Supporting Files */,
+			);
+			path = "Super Checkout";
+			sourceTree = "<group>";
+		};
+		CA000D8F12EB8A3B00185A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE18FFF13272DF1008ACCCD /* Assets */,
+				CA000D9012EB8A3B00185A34 /* Super_Checkout-Info.plist */,
+				CA000D9112EB8A3B00185A34 /* InfoPlist.strings */,
+				CA000D9412EB8A3B00185A34 /* Super_Checkout-Prefix.pch */,
+				CA000D9512EB8A3B00185A34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA000DAC12EB8A3B00185A34 /* Super CheckoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA000DB312EB8A3B00185A34 /* Super_CheckoutTests.h */,
+				CA000DB512EB8A3B00185A34 /* Super_CheckoutTests.m */,
+				CA000DAD12EB8A3B00185A34 /* Supporting Files */,
+			);
+			path = "Super CheckoutTests";
+			sourceTree = "<group>";
+		};
+		CA000DAD12EB8A3B00185A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA000DAE12EB8A3B00185A34 /* Super_CheckoutTests-Info.plist */,
+				CA000DAF12EB8A3B00185A34 /* InfoPlist.strings */,
+				CA000DB212EB8A3B00185A34 /* Super_CheckoutTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA000DC512EBC46000185A34 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAD705AB1325FCCE00BA0F59 /* Cells */,
+				CA000D9D12EB8A3B00185A34 /* Super_CheckoutViewController.h */,
+				CA000D9E12EB8A3B00185A34 /* Super_CheckoutViewController.m */,
+				CA000DC212EBB91700185A34 /* MainNavigationController.h */,
+				CA000DC312EBB91700185A34 /* MainNavigationController.m */,
+				CA000DC612EBC4E000185A34 /* ShoppingCartViewController.h */,
+				CA000DC712EBC4E000185A34 /* ShoppingCartViewController.m */,
+				CA000DC812EBC4E000185A34 /* ShoppingCartViewController.xib */,
+				CAD705B113270EB500BA0F59 /* ProductDetailsViewController.h */,
+				CAD705B213270EB700BA0F59 /* ProductDetailsViewController.m */,
+				CAD705B313270EB900BA0F59 /* ProductDetailsViewController.xib */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CA5EB29912EBD4EB003A3171 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CA5EB29B12EBD51F003A3171 /* SCModalDelegate.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CAD705801322EE1000BA0F59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CAD7058813243F6F00BA0F59 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7058913243F9900BA0F59 /* NSString+UUID.h */,
+				CAD7058A13243F9900BA0F59 /* NSString+UUID.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		CAD705971325BFC000BA0F59 /* ExternalLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				CAD705981325BFD600BA0F59 /* SBJSON */,
+			);
+			name = ExternalLibraries;
+			sourceTree = "<group>";
+		};
+		CAD705981325BFD600BA0F59 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				CAD705A91325C03E00BA0F59 /* LICENSE */,
+				CAD705991325C02500BA0F59 /* JSON.h */,
+				CAD7059A1325C02500BA0F59 /* NSObject+SBJSON.h */,
+				CAD7059B1325C02500BA0F59 /* NSString+SBJSON.h */,
+				CAD7059C1325C02500BA0F59 /* SBJsonBase.h */,
+				CAD7059D1325C02500BA0F59 /* SBJsonParser.h */,
+				CAD7059E1325C02500BA0F59 /* SBJsonWriter.h */,
+				CAD7059F1325C02500BA0F59 /* NSObject+SBJSON.m */,
+				CAD705A01325C02500BA0F59 /* NSString+SBJSON.m */,
+				CAD705A11325C02500BA0F59 /* SBJsonBase.m */,
+				CAD705A21325C02500BA0F59 /* SBJsonParser.m */,
+				CAD705A31325C02500BA0F59 /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+		CAD705AB1325FCCE00BA0F59 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CAD705AC1325FCEA00BA0F59 /* ProductListCells.xib */,
+				CAD705AE1325FDB500BA0F59 /* ProductCell.h */,
+				CAD705AF1325FDB500BA0F59 /* ProductCell.m */,
+				CAE1901113273430008ACCCD /* QuantityCell.h */,
+				CAE1901213273430008ACCCD /* QuantityCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CADC061612F1054100B46CBC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CADC061B12F1059300B46CBC /* SuperCheckoutAPIEngine.h */,
+				CADC061C12F1059300B46CBC /* SuperCheckoutAPIEngine.m */,
+				CADC061E12F11AF100B46CBC /* SuperCheckoutAPIEngineDelegate.h */,
+				CADC061F12F1224800B46CBC /* SuperCheckoutRequestTypes.h */,
+				CADC062012F123FC00B46CBC /* SuperCheckoutHTTPURLConnection.h */,
+				CADC062112F123FC00B46CBC /* SuperCheckoutHTTPURLConnection.m */,
+				CAD705941325B8BA00BA0F59 /* SCJSONParser.h */,
+				CAD705951325B8BA00BA0F59 /* SCJSONParser.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		CAE18FFF13272DF1008ACCCD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1900913273083008ACCCD /* quantity_decrement.png */,
+				CAE1900A13273083008ACCCD /* quantity_decrement@2x.png */,
+				CAE1900B13273083008ACCCD /* quantity_increment.png */,
+				CAE1900C13273083008ACCCD /* quantity_increment@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA000D8312EB8A3B00185A34 /* Super Checkout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA000DB912EB8A3B00185A34 /* Build configuration list for PBXNativeTarget "Super Checkout" */;
+			buildPhases = (
+				CA000D8012EB8A3B00185A34 /* Sources */,
+				CA000D8112EB8A3B00185A34 /* Frameworks */,
+				CA000D8212EB8A3B00185A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Super Checkout";
+			productName = "Super Checkout";
+			productReference = CA000D8412EB8A3B00185A34 /* Super Checkout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA000DA712EB8A3B00185A34 /* Super CheckoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA000DBC12EB8A3B00185A34 /* Build configuration list for PBXNativeTarget "Super CheckoutTests" */;
+			buildPhases = (
+				CA000DA312EB8A3B00185A34 /* Sources */,
+				CA000DA412EB8A3B00185A34 /* Frameworks */,
+				CA000DA512EB8A3B00185A34 /* Resources */,
+				CA000DA612EB8A3B00185A34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Super CheckoutTests";
+			productName = "Super CheckoutTests";
+			productReference = CA000DA812EB8A3B00185A34 /* Super CheckoutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA000D7B12EB8A3B00185A34 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CA000D7E12EB8A3B00185A34 /* Build configuration list for PBXProject "Super Checkout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA000D7912EB8A3B00185A34;
+			productRefGroup = CA000D8512EB8A3B00185A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA000D8312EB8A3B00185A34 /* Super Checkout */,
+				CA000DA712EB8A3B00185A34 /* Super CheckoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA000D8212EB8A3B00185A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA000D9312EB8A3B00185A34 /* InfoPlist.strings in Resources */,
+				CA000D9C12EB8A3B00185A34 /* MainWindow.xib in Resources */,
+				CA000DA212EB8A3B00185A34 /* Super_CheckoutViewController.xib in Resources */,
+				CA000DCA12EBC4E000185A34 /* ShoppingCartViewController.xib in Resources */,
+				CAD705AD1325FCEA00BA0F59 /* ProductListCells.xib in Resources */,
+				CAD705B513270EBB00BA0F59 /* ProductDetailsViewController.xib in Resources */,
+				CAE1900D13273083008ACCCD /* quantity_decrement.png in Resources */,
+				CAE1900E13273083008ACCCD /* quantity_decrement@2x.png in Resources */,
+				CAE1900F13273083008ACCCD /* quantity_increment.png in Resources */,
+				CAE1901013273083008ACCCD /* quantity_increment@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA000DA512EB8A3B00185A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA000DB112EB8A3B00185A34 /* InfoPlist.strings in Resources */,
+				CA000DB412EB8A3B00185A34 /* Super_CheckoutTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA000DA612EB8A3B00185A34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA000D8012EB8A3B00185A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA000D9612EB8A3B00185A34 /* main.m in Sources */,
+				CA000D9912EB8A3B00185A34 /* Super_CheckoutAppDelegate.m in Sources */,
+				CA000D9F12EB8A3B00185A34 /* Super_CheckoutViewController.m in Sources */,
+				CA000DC412EBB91700185A34 /* MainNavigationController.m in Sources */,
+				CA000DC912EBC4E000185A34 /* ShoppingCartViewController.m in Sources */,
+				CADC061D12F1059300B46CBC /* SuperCheckoutAPIEngine.m in Sources */,
+				CADC062212F123FC00B46CBC /* SuperCheckoutHTTPURLConnection.m in Sources */,
+				CAD7058B13243F9900BA0F59 /* NSString+UUID.m in Sources */,
+				CAD705961325B8BC00BA0F59 /* SCJSONParser.m in Sources */,
+				CAD705A41325C02500BA0F59 /* NSObject+SBJSON.m in Sources */,
+				CAD705A51325C02500BA0F59 /* NSString+SBJSON.m in Sources */,
+				CAD705A61325C02500BA0F59 /* SBJsonBase.m in Sources */,
+				CAD705A71325C02500BA0F59 /* SBJsonParser.m in Sources */,
+				CAD705A81325C02500BA0F59 /* SBJsonWriter.m in Sources */,
+				CAD705B01325FDB500BA0F59 /* ProductCell.m in Sources */,
+				CAD705B413270EBB00BA0F59 /* ProductDetailsViewController.m in Sources */,
+				CAE1901313273430008ACCCD /* QuantityCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA000DA312EB8A3B00185A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA000DB612EB8A3B00185A34 /* Super_CheckoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA000D9112EB8A3B00185A34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA000D9212EB8A3B00185A34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA000D9A12EB8A3B00185A34 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA000D9B12EB8A3B00185A34 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CA000DA012EB8A3B00185A34 /* Super_CheckoutViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA000DA112EB8A3B00185A34 /* en */,
+			);
+			name = Super_CheckoutViewController.xib;
+			sourceTree = "<group>";
+		};
+		CA000DAF12EB8A3B00185A34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA000DB012EB8A3B00185A34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA000DB712EB8A3B00185A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA000DB812EB8A3B00185A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CA000DBA12EB8A3B00185A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Super Checkout/Super_Checkout-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Super Checkout/Super_Checkout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA000DBB12EB8A3B00185A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Super Checkout/Super_Checkout-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Super Checkout/Super_Checkout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA000DBD12EB8A3B00185A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Super Checkout.app/Super Checkout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Super CheckoutTests/Super_CheckoutTests-Prefix.pch";
+				INFOPLIST_FILE = "Super CheckoutTests/Super_CheckoutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CA000DBE12EB8A3B00185A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Super Checkout.app/Super Checkout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Super CheckoutTests/Super_CheckoutTests-Prefix.pch";
+				INFOPLIST_FILE = "Super CheckoutTests/Super_CheckoutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA000D7E12EB8A3B00185A34 /* Build configuration list for PBXProject "Super Checkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA000DB712EB8A3B00185A34 /* Debug */,
+				CA000DB812EB8A3B00185A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA000DB912EB8A3B00185A34 /* Build configuration list for PBXNativeTarget "Super Checkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA000DBA12EB8A3B00185A34 /* Debug */,
+				CA000DBB12EB8A3B00185A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA000DBC12EB8A3B00185A34 /* Build configuration list for PBXNativeTarget "Super CheckoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA000DBD12EB8A3B00185A34 /* Debug */,
+				CA000DBE12EB8A3B00185A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA000D7B12EB8A3B00185A34 /* Project object */;
+}
