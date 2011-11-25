@@ -362,6 +362,9 @@
 /* Begin PBXProject section */
 		CA000D7B12EB8A3B00185A34 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = CA000D7E12EB8A3B00185A34 /* Build configuration list for PBXProject "Super Checkout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;

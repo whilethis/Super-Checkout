@@ -208,7 +208,7 @@
 }
 
 -(void) cartContentsReceived:(NSDictionary *)cart forRequest:(NSString *)connectionIdentifier {
-	shoppingCart = [cart retain];
+	shoppingCart = cart;
 	
 	NSNotification *note = [NSNotification notificationWithName:@"CartUpdated" object:[NSNumber numberWithInt:[[shoppingCart objectForKey:@"items"] count]]];
 	
