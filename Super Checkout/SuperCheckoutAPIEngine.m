@@ -12,7 +12,7 @@
 #import "SCJSONParser.h"
 
 #define HTTP_POST_METHOD        @"POST"
-#define BASE_URL				@"www.scottpenberthy.com/fruit/api"
+#define BASE_URL				@"www.proiostools.com/fruit/api"
 #define URL_REQUEST_TIMEOUT     25.0
 
 @interface NSDictionary (MGTwitterEngineExtensions)
